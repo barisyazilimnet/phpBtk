@@ -1,0 +1,5 @@
+short_open_tag=On
+
+date.timezone = Europe/Istanbul
+
+session.gc_maxlifetime -> varsayılan deger 1140
