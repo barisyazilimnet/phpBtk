@@ -3,10 +3,10 @@ $mysqli->autocommit(FALSE); //? veri tabanı baglantısını devre dışı bıra
 $query = $mysqli->query("UPDATE php_btk.bank_accounts SET quantity=quantity-3000 WHERE id=1");
 $query1 = $mysqli->query("UPDATE php_btk.bank_accounts SET quantity=quantity+3000 WHERE id=3");
 
-if($query and $query1){
+if ($query === true and $query1 === true) {
     $mysqli->commit(); //? işlemi tamamlar
     echo "İşlem tamamlandı";
-}else{
+} else {
     $mysqli->rollback(); //? işlemi geri alır
     echo "Hata oluştu";
 }

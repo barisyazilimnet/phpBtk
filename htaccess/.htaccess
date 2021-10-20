@@ -1,0 +1,8 @@
+ErrorDocument 404 http://localhost/php/htaccess/404.html 
+#bulunmayan sayfa hatası oluştutugunda yapılan özel tasarımlı 404 sayfasına yönlendirir
+php_value   post_max_size   512M
+# dosya yükleme boyutları degiştirilebilir
+
+#link yapıları
+RewriteEngine   On
+#RewriteRule ^(.*)$  index.php?page=$1   [QSA]
