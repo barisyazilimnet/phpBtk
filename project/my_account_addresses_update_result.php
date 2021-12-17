@@ -10,7 +10,6 @@ if (isset($_SESSION["user"])) {
     if (($address != "") and ($country != "") and ($province != "") and ($name_surname != "") and ($phone_number != "") and ($district != "")) {
         $query        =    $db_con->prepare("UPDATE addresses SET user_id = ?, name_surname = ?, address = ?, country = ?, province = ?, district = ?, phone_number = ? WHERE address_id = ?");
         $query->execute([$user->user_id, $name_surname, $address, $country, $province, $district, $phone_number, $id]);
-        print_r($query->errorInfo());
         if ($query->rowCount()) {
             header("Location:index.php?page_code=64");
             exit();

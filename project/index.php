@@ -1,6 +1,7 @@
 <?php
 require_once "system/system.php";
 $page_code = (isset($_REQUEST["page_code"])) ? preg_replace("/[^0-9]/", "", security($_REQUEST["page_code"])) : 0;
+$paging = (isset($_REQUEST["paging"])) ? preg_replace("/[^0-9]/", "", security($_REQUEST["paging"])) : 1;
 ?>
 <!DOCTYPE html>
 <html lang="tr-TR">
@@ -54,9 +55,9 @@ $page_code = (isset($_REQUEST["page_code"])) ? preg_replace("/[^0-9]/", "", secu
                                 <tr>
                                     <td width="306">&nbsp;</td>
                                     <td width="107"><a href="index.php?page_code=0" style="color:#646464; font-weight:bold">Anasayfa</a></td>
-                                    <td width="160"><a href="" style="color:#646464; font-weight:bold">Erkek Ayakkabıları</a></td>
-                                    <td width="160"><a href="" style="color:#646464; font-weight:bold">Kadın Ayakkabıları</a></td>
-                                    <td width="140"><a href="" style="color:#646464; font-weight:bold">Çocuk Ayakkabıları</a></td>
+                                    <td width="160"><a href="index.php?page_code=83" style="color:#646464; font-weight:bold">Erkek Ayakkabıları</a></td>
+                                    <td width="160"><a href="index.php?page_code=84" style="color:#646464; font-weight:bold">Kadın Ayakkabıları</a></td>
+                                    <td width="140"><a href="index.php?page_code=85" style="color:#646464; font-weight:bold">Çocuk Ayakkabıları</a></td>
                                 </tr>
                             </table>
                         </td>
