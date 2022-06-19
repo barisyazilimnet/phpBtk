@@ -56,11 +56,6 @@ $paging = (isset($_REQUEST["paging"])) ? preg_replace("/[^0-9]/", "", security($
                                 <tr>
                                     <td width="306">&nbsp;</td>
                                     <td width="107"><a href="index.php?page_code=0" style="color:#646464; font-weight:bold">Anasayfa</a></td>
-
-                                    <td width="160"><a href="" style="color:#646464; font-weight:bold">Erkek Ayakkabıları</a></td>
-                                    <td width="160"><a href="" style="color:#646464; font-weight:bold">Kadın Ayakkabıları</a></td>
-                                    <td width="140"><a href="" style="color:#646464; font-weight:bold">Çocuk Ayakkabıları</a></td>
-
                                     <td width="160"><a href="index.php?page_code=83" style="color:#646464; font-weight:bold">Erkek Ayakkabıları</a></td>
                                     <td width="160"><a href="index.php?page_code=84" style="color:#646464; font-weight:bold">Kadın Ayakkabıları</a></td>
                                     <td width="140"><a href="index.php?page_code=85" style="color:#646464; font-weight:bold">Çocuk Ayakkabıları</a></td>
