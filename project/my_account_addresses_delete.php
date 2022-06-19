@@ -8,5 +8,9 @@
         header("Location:index.php?page_code=69");
     }
 } else {
+
     echo header("Location: index.php");
+
+    header("Location: index.php");
+
 }
