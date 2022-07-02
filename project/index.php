@@ -38,14 +38,15 @@ $paging = (isset($_REQUEST["paging"])) ? preg_replace("/[^0-9]/", "", security($
                             <td width="70"><a href="index.php?page_code=50">Hesabım</a></td>
                             <td width="20"><a href="index.php?page_code=49"><img style="margin-top: 5;" src="img/CikisBeyaz16x16.png" alt="CikisBeyaz16x16"></a></td>
                             <td width="85"><a href="index.php?page_code=49">Çıkış Yap</a></td>
+                            <td width="20"><a href="index.php?page_code=93"><img style="margin-top: 5;" src="img/cart16x16.png" alt="cart16x16"></a></td>
+                            <td width="103"><a href="index.php?page_code=93">Alışveriş Sepeti</a></td>
                         <?php } else { ?>
                             <td width="20"><a href="index.php?page_code=30"><img style="margin-top: 5;" src="img/sign_in16x16.png" alt="sign_in16x16"></a></td>
                             <td width="70"><a href="index.php?page_code=30">Giriş Yap</a></td>
                             <td width="20"><a href="index.php?page_code=21"><img style="margin-top: 5;" src="img/sign_up16x16.png" alt="sign_up16x16"></a></td>
                             <td width="85"><a href="index.php?page_code=21">Yeni Üye Ol</a></td>
                         <?php } ?>
-                        <td width="20"><a href=""><img style="margin-top: 5;" src="img/cart16x16.png" alt="cart16x16"></a></td>
-                        <td width="103"><a href="">Alışveriş Sepeti</a></td>
+
                     </tr>
                 </table>
                 <table width="1065" height="80" style="margin: 0 auto; border-collapse:collapse">
@@ -59,7 +60,7 @@ $paging = (isset($_REQUEST["paging"])) ? preg_replace("/[^0-9]/", "", security($
                                     <td width="160"><a href="index.php?page_code=83" style="color:#646464; font-weight:bold">Erkek Ayakkabıları</a></td>
                                     <td width="160"><a href="index.php?page_code=84" style="color:#646464; font-weight:bold">Kadın Ayakkabıları</a></td>
                                     <td width="140"><a href="index.php?page_code=85" style="color:#646464; font-weight:bold">Çocuk Ayakkabıları</a></td>
-                        </tr>
+                                </tr>
                             </table>
                         </td>
                     </tr>

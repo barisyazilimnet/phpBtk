@@ -138,7 +138,7 @@ if ($product->product_price_currency == "$") {
                                         <table width="705" style="border-collapse:collapse;">
                                             <tr style="height: 45px;">
                                                 <td width="500">
-                                                    <select name="variyant" id="variyant" class="payment_notification_select">
+                                                    <select name="variant" id="variant" class="payment_notification_select">
                                                         <option>Lütfen <?php echo $product->product_variant_header; ?> Seçiniz</option>
                                                         <?php
                                                         $query = $db_con->prepare("SELECT * FROM product_variants WHERE product_id = ? AND product_variant_stock_quantity > 0 ORDER BY product_variant_name");

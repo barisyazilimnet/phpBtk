@@ -69,10 +69,10 @@ if (isset($_SESSION["user"])) {
                             }
                     ?>
                             <tr height="50">
-                                <td style="width: 85px;">
+                                <td style="width: 85px; text-align:left; border-bottom:1px dashed #ccc; padding:15px 0px;">
                                     <img src="img/<?php echo $point ; ?>" alt="<?php echo $comment->comment_point; ?>" />
                                 </td>
-                                <td style="width: 980px;"><?php echo $comment->comment_text; ?></td>
+                                <td style="width: 980px; text-align:left; border-bottom:1px dashed #ccc; padding:15px 0px;"><?php echo $comment->comment_text; ?></td>
                             </tr>
                         <?php
                         }

@@ -84,7 +84,7 @@ if (isset($_SESSION["user"])) {
                                     <td style="width: 100px;">₺ <?php echo number_format(decode($order->order_product_price), 2, ",", "."); ?></td>
                                     <td style="width: 50px;"><?php echo decode($order->order_product_quantity); ?></td>
                                     <td style="width: 100px;">₺ <?php echo number_format(decode($order->order_product_total_amount), 2, ",", "."); ?></td>
-                                    <td style="width: 150px;"><?php echo (decode($order->order_cargo_status)) ? $order->order_cargo_code : "Beklemede"; ?></td>
+                                    <td style="width: 150px;"><?php echo (decode($order->order_shipping_status )) ? $order->order_shipping_post_code : "Beklemede"; ?></td>
                                 </tr>
                             <?php
                             }

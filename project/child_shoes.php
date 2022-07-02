@@ -94,6 +94,13 @@ $menus = $query->fetch(PDO::FETCH_OBJ);
                                 $products = $query->fetchAll(PDO::FETCH_OBJ);
                                 $number = 1;
                                 foreach ($products as $product) {
+                                    if ($product->product_price_currency == "$") {
+                                        $product_price = $product->product_price * $settings->usd;
+                                    } else if ($product->product_price_currency == "€") {
+                                        $product_price = $product->product_price * $settings->eur;
+                                    } else if ($product->product_price_currency == "₺") {
+                                        $product_price = $product->product_price;
+                                    }
                                     $product_comment_point = ($product->product_comment_number) ? number_format($product->product_total_comment_point / $product->product_comment_number, 2, ".", "") : "0";
                                     if ($product_comment_point == 0) {
                                         $product_comment_number_img = "YildizCizgiliBos.png";
@@ -142,7 +149,7 @@ $menus = $query->fetch(PDO::FETCH_OBJ);
                                             <tr height="25" style="text-align:center">
                                                 <td width="190">
                                                     <a href="index.php?page_code=82&product_id=<?php echo $product->product_id; ?>" style="color:#f00; font-weight:bold; text-decoration:none;">
-                                                        <?php echo decode($product->product_price_currency) . " " . number_format(decode($product->product_price), 2, ",", "."); ?>
+                                                        <?php echo "₺ " . number_format($product_price, 2, ",", "."); ?>
                                                     </a>
                                                 </td>
                                             </tr>

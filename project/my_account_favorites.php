@@ -70,7 +70,7 @@ if (isset($_SESSION["user"])) {
                             }
 
                     ?>
-                            <tr height="50">
+                            <tr height="50" style="text-align:left; border-bottom:1px dashed #ccc;">
                                 <td style="width: 75px;">
                                     <a href="index.php?page_code=82&product_id=<?php echo $favorite->product_id; ?>">
                                         <img src="img/products/<?php echo $product_type . "/" . $product->product_img; ?>" alt="<?php echo $product->product_img; ?>" style="width: 60px; height: 80px;">

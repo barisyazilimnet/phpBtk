@@ -6,6 +6,7 @@ require 'Frameworks/PHPMailer/src/SMTP.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\SMTP;
 
 if (isset($_POST)) {
     $email = security($_POST["email"]);
