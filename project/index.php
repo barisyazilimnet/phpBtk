@@ -229,8 +229,8 @@ $paging = (isset($_REQUEST["paging"])) ? preg_replace("/[^0-9]/", "", security($
             </td>
         </tr>
     </table>
-    <script type="text/javascript" src="frameworks/jquery-3.6.0.min.js" language="javascript"></script>
     <script type="text/javascript" language="javascript" src="system/script.js"></script>
+    <script type="text/javascript" src="frameworks/jquery-3.6.0.min.js" language="javascript"></script>
 </body>
 
 </html>

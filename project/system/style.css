@@ -21,14 +21,17 @@ body {
   font-size: 14px;
 }
 
-a:link, a:hover, a:visited, a:active{
-    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
-    color: #fff;
-    line-height: 1.5;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    text-decoration: none;
+a:link,
+a:hover,
+a:visited,
+a:active {
+  font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+  color: #fff;
+  line-height: 1.5;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
 }
 a:link,
 a:hover,
@@ -43,20 +46,18 @@ a:active {
   text-decoration: none;
 }
 .payment_notification_inputs {
-
   width: 95%;
   height: 30px;
   padding: 0 10px;
 }
 
 .payment_notification_select {
-
   width: 100%;
   height: 40px;
   padding: 0 10px;
 }
 
-.payment_notification_textarea{
+.payment_notification_textarea {
   width: 95%;
   height: 100px;
   padding: 10px;
@@ -69,7 +70,6 @@ a:active {
   resize: none;
 }
 .green_button {
-
   height: 30px;
   border: 1px solid #0f0;
   background-color: #090;
@@ -78,7 +78,6 @@ a:active {
 }
 
 .green_button:hover {
-
   height: 30px;
   border: 1px solid #090;
   background-color: #0f0;
@@ -88,7 +87,6 @@ a:active {
 }
 
 .cargo_follow_button {
-
   height: 30px;
   border: 1px solid #ccc;
   background-color: #f90;
@@ -97,7 +95,6 @@ a:active {
 }
 
 .cargo_follow_button:hover {
-
   height: 30px;
   border: 1px solid #000;
   background-color: #ccc;
@@ -107,7 +104,6 @@ a:active {
 }
 
 .SSS_question {
-
   width: 100%;
   height: 30px;
   font-size: 14px;
@@ -121,7 +117,7 @@ a:active {
   padding-top: 10px;
 }
 
-.SSS_question:hover{
+.SSS_question:hover {
   background-color: #f1f1f1;
   cursor: pointer;
 }
@@ -130,7 +126,6 @@ a:active {
   cursor: pointer;
 }
 .SSS_answer {
-
   width: 100%;
   font-size: 14px;
   line-height: 1.5;
@@ -138,7 +133,6 @@ a:active {
 }
 
 .my_account_membership_information_update {
-
   height: 30px;
   border: 1px solid #0f0;
   background-color: #090;
@@ -149,7 +143,6 @@ a:active {
 }
 
 .my_account_membership_information_update:hover {
-
   height: 30px;
   border: 1px solid #090;
   background-color: #0f0;
@@ -159,7 +152,6 @@ a:active {
   text-decoration: none;
   text-align: center;
 }
-
 
 .paging_container {
   display: block;
@@ -311,4 +303,66 @@ a:active {
 .add_to_cart_button:hover {
   background-color: #034a6e;
   border: 1px solid #08c;
+}
+
+.cart_inside_contuine_and_complete_shopping {
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  padding: 10px 0px 5px;
+  background-color: #f90;
+  color: white;
+  border: 1px solid #f90;
+  border-radius: 3px;
+  outline: none;
+  font-weight: bold !important;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cart_inside_contuine_and_complete_shopping a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold !important;
+}
+
+.cart_inside_contuine_and_complete_shopping a:hover {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold !important;
+}
+
+.cart_inside_contuine_and_complete_shopping a img {
+  float: left;
+  height: 20px;
+  min-height: 20px;
+  margin-top: 3px;
+  margin-left: 78px;
+}
+.shopping_complete{
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 1px 0px;
+  background-color: #f90;
+  color: white;
+  border: 1px solid #f90;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.shopping_complete:hover{
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 1px 0px;
+  background-color: #f90;
+  color: #000;
+  border: 1px solid #f90;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
 }
