@@ -1,0 +1,8 @@
+short_open_tag=On
+
+date.timezone = Europe/Istanbul
+
+session.gc_maxlifetime -> varsayılan deger 1140
+
+
+mail göndermek için sendmail özellgii degiştirmeli ve sendmail.ini dosyası içerigi degiştirilmeli

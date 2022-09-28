@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule ^uye-giris$ /php/project/index.php?page_code=30 [L,NC]
+RewriteRule ^uye-ol$    /php/project/index.php?page_code=21 [L,NC]
+RewriteRule ^urun-detay$    /php/project/index.php?page_code=82 [L,NC]
+RewriteRule ^urun-detay/(.*)/(.*)$   /php/project/index.php?page_code=82&product_id=$2 [L,NC] 
+#adını göndermek arama motorları için gerekli
+#en fazla 9 tane (.*) oluşturabilir

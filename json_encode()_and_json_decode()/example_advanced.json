@@ -1,0 +1,11 @@
+{
+  "company": "barisyazilim.net",
+  "manager": "Barış KURT",
+  "educations": ["HTML", "CSS3", "PHP", "JS"],
+  "instructor": [
+    { "name": "Hakan ALAKENT", "lessons": "HTML" },
+    { "name": "Volkan ALAKENT", "lessons": "PHP" },
+    { "name": "Onur Tatlı", "lessons": "CSS3" },
+    { "name": "Ümit Okudan", "lessons": "JS" }
+  ]
+}

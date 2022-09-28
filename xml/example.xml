@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BARISYAZILIM>
+  <COMPANY>Barış Yazılım .net</COMPANY>
+  <MANAGER>Barış KURT</MANAGER>
+  <COURSES>
+    <KURS id="1">HTML5</KURS>
+    <KURS id="2">CSS3</KURS>
+    <KURS id="3">JAVASCRIPT</KURS>
+    <KURS id="4">PHP7</KURS>
+  </COURSES>
+  <TEACHERS>
+    <TEACHER id="one" level="professional">
+      <NAME>Volkan ALAKENT</NAME>
+      <COURSENAME>PHP7</COURSENAME>
+    </TEACHER>
+    <TEACHER id="two" level="medium">
+      <NAME>Hakan ALAKENT</NAME>
+      <COURSENAME>HTML5</COURSENAME>
+    </TEACHER>
+    <TEACHER id="three" level="advanced">
+      <NAME>Onur TATLI</NAME>
+      <COURSENAME>CSS3</COURSENAME>
+    </TEACHER>
+    <TEACHER id="four" level="starter">
+      <NAME>Ümit OKUDAN</NAME>
+      <COURSENAME>JAVASCRIPT</COURSENAME>
+    </TEACHER>
+  </TEACHERS>
+</BARISYAZILIM>
